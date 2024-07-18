@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.akali{
+/*     posicionamiento */
+position:fixed;
+top: 50%;
+left: 50%;
+border-radius: 50%;
+/* INVESTIGACION */
+transform : translate(-50%,-50%);
+/* estilo */
+min-width: 700px;
+height: 500px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url(../img/akali.jpg);
+}
+
+.akali_activo {
+    background-image: url(../img/akaligif.gif);
+}
+
+.akali_boton {
+    margin:370px 260px 0 auto;
+    width: 30px;
+    height: 50px;
+/*     border:  1px solid red;*/
+} 
